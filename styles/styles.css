@@ -22,10 +22,6 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
-}
-
 main {
     max-width: 840px;
 }
@@ -50,6 +46,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: none;
+    box-shadow: none;
 
 }
 
