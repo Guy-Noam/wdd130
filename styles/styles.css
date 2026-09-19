@@ -4,6 +4,18 @@
     --text-align-standard: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 16px;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -18,6 +30,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    margin: 1rem;
 }
 
 img {
@@ -40,6 +53,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: var(--text-align-standard);
+    position: relative;
 }
 
 aside img {
@@ -49,21 +63,45 @@ aside img {
     box-shadow: none;
 }
 
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+
+}
+
 main img {
     width: 150px;
     height: var(--height-standard);
-    border: 1px;
-    padding: 1px;
-    box-shadow: none;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 
 }
 
 p {
-    padding: 0;
+    padding: 1px;
+    margin: 2rem;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--text-align-standard);
+}
+
+.box {
+
+    margin: 1rem;
+    border: 1px solid rgba (0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indent {
+    margin-left: 2rem;
+    padding-left: 2rem;
 }
