@@ -1,14 +1,14 @@
 :root {
 
     --primary-color:#fff;
-    --secondary-color: #f4a261;
     --accent1-color: #af283e;
     --accent2-color: #e9c46a;
-
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
 }
+
+
 
 header{
     background-color: var(--primary-color);
@@ -42,7 +42,7 @@ nav , p , section , article{
     text-align: justify;
 }
 
-.socialemedia a {
+.socialmedia a {
 
     text-decoration: none;
 
